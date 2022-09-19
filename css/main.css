@@ -1,0 +1,30 @@
+body {
+    background-color: burlywood;
+}
+
+.cityInfo {
+    text-align: center;
+    background-color: coral;
+    border: solid;
+    border-radius: 100px/ 150px;
+    width: 40rem;
+    height: 30rem;
+    margin: auto;
+}
+
+.zipInfo {
+    background-color: lightcoral;
+    text-align: center;
+    border: solid;
+    border-radius: 100px/ 150px;
+    width: 40rem;
+    height: 30rem;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.weather {
+    text-align: center;
+}
+
+

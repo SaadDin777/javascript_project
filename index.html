@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <h1 class="weather">Weather Website</h1>
+    <div class="cityInfo">
+        <input type="text" id="cityText">
+        <button id="display">City!</button>
+        <div class="cityData">
+            <h1 id="cityName"></h1>
+            <h1 id="temp"></h1>
+            <h1 id="highTemp"></h1>
+            <h1 id="minTemp"></h1>
+            <h1 id="forecastTemp"></h1>
+            <h1 id="humidityTemp"></h1>
+        </div>
+    </div>
+
+    <div class="zipInfo">
+        <input type="text" id="zipText">
+        <button id="displayZip">Zipcode!</button>
+        <h1 id="zipName"></h1>
+        <h1 id="zipTemp"></h1>
+        <h1 id="highTempZip"></h1>
+        <h1 id="minTempZip"></h1>
+        <h1 id="forecastTempZip"></h1>
+        <h1 id="humidityTempZip"></h1>
+    </div>
+    
+</body>
+</html>
